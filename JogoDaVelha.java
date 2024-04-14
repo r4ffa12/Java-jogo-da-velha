@@ -22,7 +22,7 @@ public class JogoDaVelha {
             System.out.println("Vez do jogador " +player+".");
             System.out.print("Digite a linha: ");
             row = scanner.nextInt();
-            System.out.print("Digite a coluna");
+            System.out.print("Digite a coluna: ");
             col = scanner.nextInt();
 
             if(row < 0 || row > 2 || col < 0 || col > 2 || board[row][col] != ' ') {
